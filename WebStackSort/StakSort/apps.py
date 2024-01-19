@@ -1,4 +1,4 @@
-from django.apps importAppConfig
+from django.apps import AppConfig
 
 
 class StaksortConfig(AppConfig):
