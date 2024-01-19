@@ -1,5 +1,5 @@
 """
-ASGI config for App_Stack_sort project.
+ASGI config for App_StackSort project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'App_Stack_sort.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'App_StackSort.settings')
 
 application = get_asgi_application()
